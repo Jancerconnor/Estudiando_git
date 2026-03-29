@@ -1,0 +1,45 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fondo general */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+/* Título */
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Texto */
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Botón */
+button {
+    padding: 12px 25px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #00c9a7;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover del botón */
+button:hover {
+    background-color: #00a884;
+    transform: scale(1.05);
+}
